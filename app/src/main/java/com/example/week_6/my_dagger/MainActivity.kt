@@ -1,10 +1,11 @@
-package com.example.week_6
+package com.example.week_6.my_dagger
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.week_6.HalfSquareArea
 import com.example.week_6.databinding.ActivityMainBinding
-import dagger.multibindings.IntKey
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
@@ -53,6 +54,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.mainActivityPerimeterTv.text = squareDetails.perimeter.toString()
         binding.mainActivityAreaTv.text = squareDetails.area.toString()
+
 
     }
 }

@@ -1,4 +1,4 @@
-package com.example.week_6
+package com.example.week_6.my_dagger
 
 import dagger.Component
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_dagger.my_hilt.HiltActivity">
+
+    <TextView
+        android:id="@+id/hiltActivity_idTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emp_id"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hiltActivity_nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emp_name"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="@id/hiltActivity_idTv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
